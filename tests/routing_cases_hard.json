@@ -1,0 +1,79 @@
+[
+  {"id": "H1", "lang": "en", "note": "typos", "turns": [
+    {"user": "flyt from baku to istambul fridey", "category": "flights", "domains": ["flights"]}]},
+  {"id": "H2", "lang": "az", "note": "typo, no special letters", "turns": [
+    {"user": "noutbuk gosder", "category": "shopping", "domains": ["shopping"]}]},
+  {"id": "H3", "lang": "en", "note": "no domain keyword", "turns": [
+    {"user": "I want to watch something scary tonight", "category": "cinema", "domains": ["cinema"]}]},
+  {"id": "H4", "lang": "en", "note": "no domain keyword", "turns": [
+    {"user": "my headphones broke, need new ones", "category": "shopping", "domains": ["shopping"]}]},
+  {"id": "H5", "lang": "mixed-lang", "note": "AZ + EN in one sentence", "turns": [
+    {"user": "Bakıdan Dubai-ya flight var?", "category": "flights", "domains": ["flights"]}]},
+  {"id": "H6", "lang": "mixed-lang", "note": "RU + EN in one sentence", "turns": [
+    {"user": "покажи laptops", "category": "shopping", "domains": ["shopping"]}]},
+  {"id": "H7", "lang": "en", "note": "no context", "turns": [
+    {"user": "How much is it?", "category": "ambiguous", "domains": []}]},
+  {"id": "H8", "lang": "en", "note": "seats: cinema or flight?", "turns": [
+    {"user": "seats for Saturday", "category": "ambiguous", "domains": []}]},
+  {"id": "H9", "lang": "en", "note": "city name but off-topic", "turns": [
+    {"user": "Is Istanbul nice in November?", "category": "out_of_scope", "domains": []}]},
+  {"id": "H10", "lang": "en", "turns": [
+    {"user": "Tell me a joke", "category": "out_of_scope", "domains": []}]},
+  {"id": "H11", "lang": "en", "note": "number from the data, but a maths question", "turns": [
+    {"user": "What's 15% of 289?", "category": "out_of_scope", "domains": []}]},
+  {"id": "H12", "lang": "en", "note": "gift = shopping", "turns": [
+    {"user": "Something for my dad's birthday under 200 AZN", "category": "shopping", "domains": ["shopping"]}]},
+  {"id": "H13", "lang": "en", "turns": [
+    {"user": "I'm bored", "category": "ambiguous", "domains": []}]},
+  {"id": "H14", "lang": "en", "note": "follow-up words with no context", "turns": [
+    {"user": "Is the cheapest one available?", "category": "ambiguous", "domains": []}]},
+  {"id": "H15", "lang": "en", "note": "long conversation, 3 domains, return to cinema", "turns": [
+    {"user": "What's on at 28 Mall this week?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "Any of them for kids?", "category": "follow_up", "domains": ["cinema"]},
+    {"user": "Also I need a coffee machine", "category": "shopping", "domains": ["shopping"]},
+    {"user": "Is it silver?", "category": "follow_up", "domains": ["shopping"]},
+    {"user": "and a flight to Tbilisi tomorrow", "category": "flights", "domains": ["flights"]},
+    {"user": "back to the kids film, how much are tickets?", "category": "follow_up", "domains": ["cinema"]}]},
+  {"id": "H16", "lang": "az", "note": "mixed in Azerbaijani", "turns": [
+    {"user": "Sabah Tiflisə uçuş və axşam üçün kino seansı", "category": "mixed", "domains": ["cinema", "flights"]}]},
+  {"id": "H17", "lang": "ru", "note": "mixed in Russian", "turns": [
+    {"user": "Найди наушники и скажи, что сегодня в кино", "category": "mixed", "domains": ["cinema", "shopping"]}]},
+  {"id": "H18", "lang": "en", "turns": [
+    {"user": "Show me phones", "category": "shopping", "domains": ["shopping"]},
+    {"user": "the blue one", "category": "follow_up", "domains": ["shopping"]},
+    {"user": "add 2 to the cart", "category": "follow_up", "domains": ["shopping"]}]},
+  {"id": "H19", "lang": "en", "turns": [
+    {"user": "Dubai flights", "category": "flights", "domains": ["flights"]},
+    {"user": "only direct", "category": "follow_up", "domains": ["flights"]},
+    {"user": "what time does the evening one leave?", "category": "follow_up", "domains": ["flights"]},
+    {"user": "reserve it for 3 people", "category": "follow_up", "domains": ["flights"]}]},
+  {"id": "H20", "lang": "az", "turns": [
+    {"user": "Bu axşam hansı filmlər var?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "rus dilində olan", "category": "follow_up", "domains": ["cinema"]},
+    {"user": "2 bilet", "category": "follow_up", "domains": ["cinema"]}]},
+  {"id": "H21", "lang": "ru", "note": "shopping question the data cannot answer", "turns": [
+    {"user": "Сколько стоит доставка рюкзака?", "category": "shopping", "domains": ["shopping"]}]},
+  {"id": "H22", "lang": "en", "note": "flight policy question the data cannot answer", "turns": [
+    {"user": "Can I bring my dog on the plane to Moscow?", "category": "flights", "domains": ["flights"]}]},
+  {"id": "H23", "lang": "en", "turns": [
+    {"user": "Who directed Orbit Zero?", "category": "cinema", "domains": ["cinema"]}]},
+  {"id": "H24", "lang": "en", "turns": [
+    {"user": "Hi!", "category": "ambiguous", "domains": []}]},
+  {"id": "H25", "lang": "az", "note": "'bilet' + city = flight", "turns": [
+    {"user": "Moskvaya bilet", "category": "flights", "domains": ["flights"]}]},
+  {"id": "H26", "lang": "az", "note": "'bilet' alone = unclear", "turns": [
+    {"user": "2 bilet istəyirəm", "category": "ambiguous", "domains": []}]},
+  {"id": "H27", "lang": "en", "turns": [
+    {"user": "What is the capital of Azerbaijan?", "category": "out_of_scope", "domains": []}]},
+  {"id": "H28", "lang": "mixed-lang", "note": "language switch every turn", "turns": [
+    {"user": "Покажи часы", "category": "shopping", "domains": ["shopping"]},
+    {"user": "Is it waterproof?", "category": "follow_up", "domains": ["shopping"]},
+    {"user": "Ən yüksək reytinqli film hansıdır?", "category": "cinema", "domains": ["cinema"]}]},
+  {"id": "H29", "lang": "en", "note": "booking with nothing selected but domain clear", "turns": [
+    {"user": "Book two tickets for Deep Signal on Friday", "category": "cinema", "domains": ["cinema"]}]},
+  {"id": "H30", "lang": "en", "note": "back to an older topic after two switches", "turns": [
+    {"user": "Show me running shoes", "category": "shopping", "domains": ["shopping"]},
+    {"user": "What comedies are showing on Sunday?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "Any flights to Tashkent?", "category": "flights", "domains": ["flights"]},
+    {"user": "ok, back to the shoes — what colour are they?", "category": "follow_up", "domains": ["shopping"]}]}
+]

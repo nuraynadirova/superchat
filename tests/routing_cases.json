@@ -1,0 +1,93 @@
+[
+  {"id": "B1", "lang": "en", "note": "Brief #1: switch across three domains", "turns": [
+    {"user": "Find me a flight from Baku to Istanbul on Friday.", "category": "flights", "domains": ["flights"]},
+    {"user": "What is playing tonight?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "Do you have wireless headphones under 100 AZN?", "category": "shopping", "domains": ["shopping"]}]},
+  {"id": "B2", "lang": "en", "note": "Brief #2: return to cinema", "turns": [
+    {"user": "What is playing tonight?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "Show me laptops.", "category": "shopping", "domains": ["shopping"]},
+    {"user": "Okay, and the sci-fi one, any seats on Saturday?", "category": "follow_up", "domains": ["cinema"]}]},
+  {"id": "B3", "lang": "en", "note": "Brief #3", "turns": [
+    {"user": "Show me laptops.", "category": "shopping", "domains": ["shopping"]},
+    {"user": "The second one, is it in stock?", "category": "follow_up", "domains": ["shopping"]}]},
+  {"id": "B4", "lang": "en", "note": "Brief #4", "turns": [
+    {"user": "Flights to Istanbul on 6 November.", "category": "flights", "domains": ["flights"]},
+    {"user": "The cheaper one, is it direct?", "category": "follow_up", "domains": ["flights"]}]},
+  {"id": "B5", "lang": "en", "note": "Brief #5 mixed", "turns": [
+    {"user": "I need a flight to Istanbul on 6 November and a backpack for the trip.", "category": "mixed", "domains": ["flights", "shopping"]}]},
+  {"id": "B6", "lang": "en", "note": "Brief #6", "turns": [
+    {"user": "Show me something good.", "category": "ambiguous", "domains": []}]},
+  {"id": "B7", "lang": "en", "note": "Brief #7", "turns": [
+    {"user": "What is the weather in Ganja?", "category": "out_of_scope", "domains": []}]},
+  {"id": "B8", "lang": "en", "note": "Brief #8", "turns": [
+    {"user": "Book two seats.", "category": "ambiguous", "domains": []}]},
+
+  {"id": "E1", "lang": "en", "turns": [
+    {"user": "Any comedies this week?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "What about in Russian?", "category": "follow_up", "domains": ["cinema"]},
+    {"user": "Book 2 tickets for the first showtime.", "category": "follow_up", "domains": ["cinema"]}]},
+  {"id": "E2", "lang": "en", "turns": [
+    {"user": "Compare the Smartphone X5 and X5 Lite.", "category": "shopping", "domains": ["shopping"]},
+    {"user": "Add the cheaper one to my cart.", "category": "follow_up", "domains": ["shopping"]},
+    {"user": "Find me a direct flight to Dubai next week.", "category": "flights", "domains": ["flights"]},
+    {"user": "Back to my cart, what's the total?", "category": "follow_up", "domains": ["shopping"]}]},
+  {"id": "E3", "lang": "en", "turns": [
+    {"user": "Can you write me a poem about autumn?", "category": "out_of_scope", "domains": []}]},
+  {"id": "E4", "lang": "en", "turns": [
+    {"user": "Which film has the highest rating, and do you sell a portable speaker?", "category": "mixed", "domains": ["cinema", "shopping"]}]},
+  {"id": "E5", "lang": "en", "turns": [
+    {"user": "Is there a business class flight to Istanbul?", "category": "flights", "domains": ["flights"]},
+    {"user": "How much baggage does it include?", "category": "follow_up", "domains": ["flights"]},
+    {"user": "Reserve it for one person.", "category": "follow_up", "domains": ["flights"]}]},
+  {"id": "E6", "lang": "en", "turns": [
+    {"user": "Which cinemas do you have in Sumgayit?", "category": "cinema", "domains": ["cinema"]}]},
+  {"id": "E7", "lang": "en", "turns": [
+    {"user": "What's cheap?", "category": "ambiguous", "domains": []}]},
+  {"id": "E8", "lang": "en", "turns": [
+    {"user": "Who won the football match yesterday?", "category": "out_of_scope", "domains": []}]},
+
+  {"id": "A1", "lang": "az", "turns": [
+    {"user": "Cümə günü Bakıdan İstanbula uçuş tap.", "category": "flights", "domains": ["flights"]},
+    {"user": "Bu axşam kinoda nə var?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "100 manatdan ucuz simsiz qulaqlıq varmı?", "category": "shopping", "domains": ["shopping"]}]},
+  {"id": "A2", "lang": "az", "turns": [
+    {"user": "Noutbukları göstər.", "category": "shopping", "domains": ["shopping"]},
+    {"user": "İkincisi stokda var?", "category": "follow_up", "domains": ["shopping"]},
+    {"user": "Onu səbətə əlavə et.", "category": "follow_up", "domains": ["shopping"]}]},
+  {"id": "A3", "lang": "az", "turns": [
+    {"user": "6 noyabrda İstanbula uçuş və səfər üçün bel çantası lazımdır.", "category": "mixed", "domains": ["flights", "shopping"]}]},
+  {"id": "A4", "lang": "az", "turns": [
+    {"user": "Gəncədə hava necədir?", "category": "out_of_scope", "domains": []}]},
+  {"id": "A5", "lang": "az", "turns": [
+    {"user": "İki yer bron et.", "category": "ambiguous", "domains": []}]},
+  {"id": "A6", "lang": "az", "turns": [
+    {"user": "Azərbaycan dilində hansı filmlər var?", "category": "cinema", "domains": ["cinema"]},
+    {"user": "Şənbə günü seans var?", "category": "follow_up", "domains": ["cinema"]},
+    {"user": "Dubaya ən ucuz uçuş hansıdır?", "category": "flights", "domains": ["flights"]},
+    {"user": "Ucuz olanın baqajı neçə kq-dır?", "category": "follow_up", "domains": ["flights"]}]},
+  {"id": "A7", "lang": "az", "turns": [
+    {"user": "Mənə yaxşı bir şey göstər.", "category": "ambiguous", "domains": []}]},
+
+  {"id": "R1", "lang": "ru", "turns": [
+    {"user": "Найди рейс из Баку в Стамбул на пятницу.", "category": "flights", "domains": ["flights"]},
+    {"user": "Какой из них прямой?", "category": "follow_up", "domains": ["flights"]},
+    {"user": "Что идёт в кино сегодня вечером?", "category": "cinema", "domains": ["cinema"]}]},
+  {"id": "R2", "lang": "ru", "turns": [
+    {"user": "Покажи ноутбуки.", "category": "shopping", "domains": ["shopping"]},
+    {"user": "Второй есть в наличии?", "category": "follow_up", "domains": ["shopping"]}]},
+  {"id": "R3", "lang": "ru", "turns": [
+    {"user": "Мне нужен билет в Москву и кроссовки для бега.", "category": "mixed", "domains": ["flights", "shopping"]}]},
+  {"id": "R4", "lang": "ru", "turns": [
+    {"user": "Какая погода в Гяндже?", "category": "out_of_scope", "domains": []}]},
+  {"id": "R5", "lang": "ru", "turns": [
+    {"user": "Забронируй два места.", "category": "ambiguous", "domains": []}]},
+  {"id": "R6", "lang": "ru", "turns": [
+    {"user": "Покажи комедии.", "category": "cinema", "domains": ["cinema"]},
+    {"user": "А что есть из наушников?", "category": "shopping", "domains": ["shopping"]},
+    {"user": "Вернёмся к комедиям, есть сеансы в субботу?", "category": "follow_up", "domains": ["cinema"]}]},
+
+  {"id": "X1", "lang": "mixed-lang", "note": "language switch mid-session", "turns": [
+    {"user": "Show me smartwatches.", "category": "shopping", "domains": ["shopping"]},
+    {"user": "Qiyməti neçədir?", "category": "follow_up", "domains": ["shopping"]},
+    {"user": "А какие фильмы идут завтра?", "category": "cinema", "domains": ["cinema"]}]}
+]
